@@ -9,7 +9,7 @@ function volume_sphere() {
 		if(radius<0){
 			volume.value="NaN";
 		}else{
-			v=(4/3)*(22/7*Math.pow(radius,3));
+			v=(4/3)*(Math.PI*Math.pow(radius,3));
 			volume.value=v.toFixed(4);
 		}
 	})
